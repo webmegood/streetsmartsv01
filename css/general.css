@@ -60,7 +60,7 @@ body, html {
 	position: fixed;
 	width: 100%;
 	z-index:10;
-	bottom: 20%;
+	bottom: 13%;
 	text-align: center;
 	display: inline-block;
 }
@@ -75,7 +75,7 @@ body, html {
 }
 .footer {
 	position:relative;
-	margin-top: 25px;
+	margin-top: 40px;
 	width: 100%;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -83,6 +83,11 @@ body, html {
 	color: #777;
 	text-align: center;
 }
+.footer img {
+	max-width: 200px;
+	opacity: 0.6;
+}
+
 
 
 /**** BUTTON STYLES ****/
@@ -91,9 +96,10 @@ body, html {
 	padding: 0px;
 	height: 100px;
 	width: 100px;
-    border-radius: 50%;
-    border: 6px solid #fff;
+	border-radius: 50%;
+	border: 2px solid #555;
 	opacity: 0.75;
+	background-color: #000;
 }
 
 
