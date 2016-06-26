@@ -1,8 +1,10 @@
+/**** GENERAL ****/
+
 body, html {
 	margin: 0px;
 	padding: 0px;
 	background-color: #000000;
-	font-family: sans-serif; }
+	font-family: sans-serif;
 }
 .wrapper {
 	position: absolute;
@@ -17,7 +19,10 @@ body, html {
 
 
 
-/**** MAIN PAGE CONTENT ****/
+
+
+
+/**** MAIN ENTRY DISPLAY ****/
 
 .entry_img {
 	width: 100%;
@@ -60,7 +65,7 @@ body, html {
 	position: fixed;
 	width: 100%;
 	z-index:10;
-	bottom: 13%;
+	bottom: 10%;
 	text-align: center;
 	display: inline-block;
 }
@@ -90,6 +95,50 @@ body, html {
 
 
 
+
+
+
+
+
+
+
+
+
+/**** HOME/MAIN MENU DISPLAY ****/
+
+#home_section {
+	display: none;
+}
+.home_section {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: 0;
+	top: 0;
+	bottom: 0px;
+	background-color: #000;
+}
+.secondary_header {
+	background-color: #FFBB00;
+	display: block;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 3px;
+}
+.secondary_header img {
+	width: 172px;
+}
+
+
+
+
+
+
+
+
+
 /**** BUTTON STYLES ****/
 
 .btn_style_01 {
@@ -106,29 +155,29 @@ body, html {
 
 
 
+/**** PRELOADER ****/
 
-#preloader {
+.prefit_overlay {
+	position: fixed;
+	z-index: 100;
+	opacity: 1;
+	background-color: #000;
+	height: auto;
+	width: auto;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.preloader {
 	position: fixed;
 	z-index: 101;
 	left: 50%;
 	top: 50%;
-	height: 100px;
-	width: 100px;
-	margin-top: -36px;
-	margin-left: -30px;
-	display: none;
+	height: 64px;
+	width: 64px;
+	margin-top: -30px;
+	margin-left: -32px;
+	opacity: 0.5;
 }
-#prefit_overlay {
-	position: absolute;
-	z-index: 100;
-	opacity: 1;
-	background-color: #222222;
-	height: auto;
-	width: auto;
-	top: 62px;
-	right: 0px;
-	bottom: 42px;
-	display: none;
-	left: 0px;
-}
-
